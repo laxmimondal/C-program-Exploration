@@ -1,9 +1,23 @@
-#include<stdio.h>
-double temp(double);
-int main(){
-    printf("Celcius to farhen is %lf\n",temp(46.7));
+
+#include <stdio.h>
+
+// Function to convert Celsius to Fahrenheit
+double temp(double celsius);
+
+int main() {
+    double celsius;
+    
+    // Prompt the user for input
+    printf("Enter temperature in Celsius: ");
+    scanf("%lf", &celsius);
+    
+    // Display the converted temperature
+    printf("Temperature in Fahrenheit: %.2lf\n", temp(celsius));
+    
     return 0;
 }
-double temp(double a){
-    return (a*1.8)+32;
+
+// Function definition to convert Celsius to Fahrenheit
+double temp(double celsius) {
+    return (celsius * 1.8) + 32;
 }
