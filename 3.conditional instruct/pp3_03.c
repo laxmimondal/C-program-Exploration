@@ -12,10 +12,10 @@ int main()
     if (total>=40)
     {
         if(marks1<33||marks2<33||marks3<33){
-        printf("You failed because of less marks in sub");
+        printf("Your percentage is %f & You failed because of less marks in sub",total);
         }
         else{
-            printf("Your percentage is %f &you passed",total);
+            printf("Your percentage is %f & you passed",total);
         }
     }
     else{
