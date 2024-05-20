@@ -15,11 +15,11 @@ int main()
         printf("You failed less marks in sub");
         }
         else{
-            printf("Your percentage is %d &you passed",total);
+            printf("Your percentage is %f &you passed",total);
         }
     }
     else{
-        printf("Your percentage is %d & you failed",total);
+        printf("Your percentage is %f & you failed",total);
     }
 
 
