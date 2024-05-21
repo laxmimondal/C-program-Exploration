@@ -1,3 +1,4 @@
+//call by value
 #include <stdio.h>
 int sum(int , int); //declaration of function 
 int main()
