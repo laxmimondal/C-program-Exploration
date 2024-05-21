@@ -1,8 +1,9 @@
 #include<stdio.h>
 void change(int*);
 int main(){
-    int i =75;
-    printf(" the value of i before change ran is %d\n",i);
+    int i ;
+    printf(" Enter the value of i \n");
+    scanf("%d",&i);
     change(&i);
     printf(" the value of i after change ran is %d\n",i);
 
