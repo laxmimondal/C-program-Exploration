@@ -1,15 +1,16 @@
 #include <stdio.h>
-void func(int *);
+void func(int);
 int main()
 {
     int i = 75;
-
-    printf("the address of i is %u", &i);
-    func(&i);
+    printf("the value of i is %d\n", *(&i));
+    func(i);
+    printf("the address of i is %u\n", &i);
+    
 
     return 0;
 }
-void func(int *ptr)
+void func(int ptr)
 {
-    printf("the value of  adress ptr from func is %u\n", ptr);
+    printf("the address ptr  is %u\n", &ptr);
 }
