@@ -8,7 +8,7 @@ func(marks);
 void func(int *ptr){
     for (int i = 0; i < 3; i++)
     {
-        printf(" the value of marks [%d] is %d",i,*(ptr++));
+        printf(" the value of marks [%d] is %d\n",i,*(ptr++));
     }
     
 
