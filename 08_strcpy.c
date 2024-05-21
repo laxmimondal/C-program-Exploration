@@ -4,6 +4,6 @@ int main(){
     char source[]="laxmi";
     char target[45];
     strcpy(target, source);
-    printf("the target string is %d",target); 
+    printf("the target string is %s",target); 
     return 0;
 }
