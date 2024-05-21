@@ -11,5 +11,5 @@ int main()
 }
 void func(int *ptr)
 {
-    printf("the vale of  adress ptr from func is %u\n", ptr);
+    printf("the value of  adress ptr from func is %u\n", ptr);
 }
